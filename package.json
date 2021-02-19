@@ -1,0 +1,23 @@
+{
+  "name": "deltabot",
+  "version": "0.0.0",
+  "description": "Bot de Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeltaLav/DeltaBot.git"
+  },
+  "author": "Lav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeltaLav/DeltaBot/issues"
+  },
+  "homepage": "https://github.com/DeltaLav/DeltaBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
