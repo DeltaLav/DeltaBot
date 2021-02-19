@@ -1,10 +1,11 @@
 {
   "name": "deltabot",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Bot de Discord",
   "main": "index.js",
   "scripts": {
-    "test": "node index"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
